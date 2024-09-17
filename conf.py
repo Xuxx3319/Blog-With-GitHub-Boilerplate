@@ -3,16 +3,20 @@
 """
 
 # For Maverick
+# For Maverick
 site_prefix = "/Blog-With-GitHub-Boilerplate/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
+template = {
+    "name": "Galileo",
+    "type": "local",
+    "path": "../Galileo"
+}
 enable_jsdelivr = {
-#   "enabled": False,
-#    "repo": ""
-    "enabled": True,
-    "repo": "qq1820582487/Xuxx_Blogs@gh-pages"
+    "enabled": False,
+    "repo": ""
 }
 
 # 站点设置
